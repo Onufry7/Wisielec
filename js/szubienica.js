@@ -142,6 +142,7 @@ function wyswietlAlfabet()
 
 function koniecGry(wynik, melodia)
 {
+	
 	//Przygotowuje i wyświetla komunikat na koniec gry
 	var jeszczeRaz = (jezykGry == "EN") ? "TRY AGAIN ?" : "JESZCZE RAZ ?";
 	var dobreHaslo = (jezykGry == "EN") ? "The correct password:" : "Prawidłowe hasło:";
@@ -155,7 +156,8 @@ function koniecGry(wynik, melodia)
 	var hasla = '<p id="pl-haslo">'+hasloPL+'</p><p id="en-haslo">'+hasloEN+'</p>';
 	var odNowa = '<span class="reset" id="nowa">'+jeszczeRaz+'</span>';
 	
-	document.getElementById("alfabet").innerHTML ="<p>"+wynik+"</p><p>"+dobreHaslo+"</p>"+hasla+odNowa;
+	document.getElementById("alfabet").className = "koniecGry";
+	document.getElementById("alfabet").innerHTML ="<p>"+wynik+"<br>"+dobreHaslo+"</p>"+hasla+odNowa;
 	
 	//Dodaje obsługe kliknięcia przycisku "jeszcze raz"
 	document.getElementById("nowa").addEventListener("click", function(){location.reload();}); 
