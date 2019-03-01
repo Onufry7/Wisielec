@@ -353,8 +353,8 @@ hasla[49] =
 //#####
 /* hasla[50] = 
 {
-	K1:"Hasło",
+	K1:"Kategoria",
 	PL:"Polski",
-	K2:"Sentence",
-	EN:"Angielski"
+	K2:"Category",
+	EN:"English"
 }; */
