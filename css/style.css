@@ -18,6 +18,13 @@ body
 	flex-wrap: wrap;
 }
 
+#stopka
+{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 100px;
+}
+
 #kategoria
 {
 	text-align: center;
@@ -219,6 +226,19 @@ body
 	text-align: justify ;
 }
 
+#stopka a
+{
+	text-decoration: none;
+	color: #eee;
+	border-bottom: 1px solid #eee;
+	font-weight: bold;
+}
+
+#stopka a:hover
+{
+	color: #00c000;
+	border-color: #00c000;
+}
 
 @keyframes rozwin
 {
