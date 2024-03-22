@@ -1,5 +1,5 @@
 # Gra w Wisielca
 
-Klasyczna warjacja gry w wisielca, gdzie odgadujemy chasło.
-Wersja językowa angielska i polska, zawiera dzwięki.
+Klasyczna wariacja gry w wisielca, gdzie odgadujemy hasło. 
+Wersja językowa angielska i polska, zawiera dźwięki. 
 Gra napisana z wykorzystaniem JS.
